@@ -41,7 +41,8 @@ contract BeggingContract {
     function withdraw() external onlyOwner {
         uint256 amount = address(this).balance;
         require(amount > 0, "no funds");
-        payable(owner).transfer(amount);
+        (bool ok,) = payable(owner).call{value: amount}("");
+        require(ok, "withdraw failed");
         emit Withdrawal(owner, amount);
     }
 
