@@ -40,3 +40,9 @@
 1. 捐赠事件：添加 Donation 事件，记录每次捐赠的地址和金额。
 2. 捐赠排行榜：实现一个功能，显示捐赠金额最多的前 3 个地址。
 3. 时间限制：添加一个时间限制，只有在特定时间段内才能捐赠。
+
+## 部署到sepolia测试网结果
+
+- [Routescan](https://testnet.routescan.io/address/0x655e2E4C09514Fd46e11e739626c57f827068C4F/contract/11155111/code)
+- [BlockScout](https://eth-sepolia.blockscout.com/address/0x655e2E4C09514Fd46e11e739626c57f827068C4F?tab=contract)
+- [Sourcify](https://repo.sourcify.dev/11155111/0x655e2E4C09514Fd46e11e739626c57f827068C4F)
